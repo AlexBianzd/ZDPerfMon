@@ -16,6 +16,10 @@
 		9291F7751EFECC6100D293B6 /* ZDPerfMon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9291F7741EFECC6100D293B6 /* ZDPerfMon.m */; };
 		9291F7811EFED32700D293B6 /* ZDPerfMonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9291F7801EFED32700D293B6 /* ZDPerfMonView.m */; };
 		9291F7871EFED72100D293B6 /* ZDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9291F7861EFED72100D293B6 /* ZDViewController.m */; };
+		92B514551F03EEA1006B0D13 /* ZDPerfMonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B514541F03EEA1006B0D13 /* ZDPerfMonBase.m */; };
+		92B514581F03EEC4006B0D13 /* ZDFPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B514571F03EEC4006B0D13 /* ZDFPS.m */; };
+		92B5145B1F03EED7006B0D13 /* ZDCPU.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5145A1F03EED7006B0D13 /* ZDCPU.m */; };
+		92B5145E1F03EF00006B0D13 /* ZDMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5145D1F03EF00006B0D13 /* ZDMemory.m */; };
 		92C9975C1EFFA513004EECD2 /* ZDPerfMonItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C9975B1EFFA513004EECD2 /* ZDPerfMonItemView.m */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +40,14 @@
 		9291F7801EFED32700D293B6 /* ZDPerfMonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPerfMonView.m; sourceTree = "<group>"; };
 		9291F7851EFED72100D293B6 /* ZDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDViewController.h; sourceTree = "<group>"; };
 		9291F7861EFED72100D293B6 /* ZDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDViewController.m; sourceTree = "<group>"; };
+		92B514531F03EEA1006B0D13 /* ZDPerfMonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPerfMonBase.h; sourceTree = "<group>"; };
+		92B514541F03EEA1006B0D13 /* ZDPerfMonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPerfMonBase.m; sourceTree = "<group>"; };
+		92B514561F03EEC4006B0D13 /* ZDFPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFPS.h; sourceTree = "<group>"; };
+		92B514571F03EEC4006B0D13 /* ZDFPS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFPS.m; sourceTree = "<group>"; };
+		92B514591F03EED7006B0D13 /* ZDCPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCPU.h; sourceTree = "<group>"; };
+		92B5145A1F03EED7006B0D13 /* ZDCPU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCPU.m; sourceTree = "<group>"; };
+		92B5145C1F03EF00006B0D13 /* ZDMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDMemory.h; sourceTree = "<group>"; };
+		92B5145D1F03EF00006B0D13 /* ZDMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDMemory.m; sourceTree = "<group>"; };
 		92C9975A1EFFA513004EECD2 /* ZDPerfMonItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPerfMonItemView.h; sourceTree = "<group>"; };
 		92C9975B1EFFA513004EECD2 /* ZDPerfMonItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPerfMonItemView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +109,14 @@
 			children = (
 				9291F7731EFECC6100D293B6 /* ZDPerfMon.h */,
 				9291F7741EFECC6100D293B6 /* ZDPerfMon.m */,
+				92B514531F03EEA1006B0D13 /* ZDPerfMonBase.h */,
+				92B514541F03EEA1006B0D13 /* ZDPerfMonBase.m */,
+				92B514591F03EED7006B0D13 /* ZDCPU.h */,
+				92B5145A1F03EED7006B0D13 /* ZDCPU.m */,
+				92B5145C1F03EF00006B0D13 /* ZDMemory.h */,
+				92B5145D1F03EF00006B0D13 /* ZDMemory.m */,
+				92B514561F03EEC4006B0D13 /* ZDFPS.h */,
+				92B514571F03EEC4006B0D13 /* ZDFPS.m */,
 				9291F77F1EFED32700D293B6 /* ZDPerfMonView.h */,
 				9291F7801EFED32700D293B6 /* ZDPerfMonView.m */,
 				92C9975A1EFFA513004EECD2 /* ZDPerfMonItemView.h */,
@@ -134,6 +154,7 @@
 		9291F7501EFECAE500D293B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZD;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = AlexBian;
 				TargetAttributes = {
@@ -180,12 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B5145B1F03EED7006B0D13 /* ZDCPU.m in Sources */,
 				9291F7811EFED32700D293B6 /* ZDPerfMonView.m in Sources */,
 				9291F7871EFED72100D293B6 /* ZDViewController.m in Sources */,
 				9291F7631EFECAE500D293B6 /* ViewController.m in Sources */,
+				92B5145E1F03EF00006B0D13 /* ZDMemory.m in Sources */,
 				9291F7601EFECAE500D293B6 /* AppDelegate.m in Sources */,
 				9291F75D1EFECAE500D293B6 /* main.m in Sources */,
+				92B514551F03EEA1006B0D13 /* ZDPerfMonBase.m in Sources */,
 				9291F7751EFECC6100D293B6 /* ZDPerfMon.m in Sources */,
+				92B514581F03EEC4006B0D13 /* ZDFPS.m in Sources */,
 				92C9975C1EFFA513004EECD2 /* ZDPerfMonItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

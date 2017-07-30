@@ -10,4 +10,8 @@
 
 @interface ZDPerfMonView : UIWindow
 
+@property (nonatomic) float cpuValue;
+@property (nonatomic) float memoryValue;
+@property (nonatomic) float fpsValue;
+
 @end

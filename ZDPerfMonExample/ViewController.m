@@ -25,5 +25,10 @@
   // Dispose of any resources that can be recreated.
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+  UITouch *touch = [[event allTouches] anyObject];
+  CGPoint touchPoint = [touch locationInView:self.view];
+  NSLog(@"%@", NSStringFromCGPoint(touchPoint));
+}
 
 @end

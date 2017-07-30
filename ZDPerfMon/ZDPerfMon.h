@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <QuartzCore/CADisplayLink.h>
 
 @interface ZDPerfMon : NSObject
+
+@property (nonatomic, strong) CADisplayLink *displayLink;
 
 + (instancetype)sharedInstance;
 

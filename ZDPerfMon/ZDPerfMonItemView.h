@@ -10,6 +10,7 @@
 
 @interface ZDPerfMonItemView : UIView
 
-@property (nonatomic, strong) UILabel *textLabel;
+@property (nonatomic, strong) UILabel *titleLabel;
+@property (nonatomic, strong) UILabel *valueLabel;
 
 @end

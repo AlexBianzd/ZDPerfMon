@@ -20,10 +20,6 @@
   // Override point for customization after application launch.
   ZDPerfMon *monitoring = [ZDPerfMon sharedInstance];
   [monitoring startMonitoring];
-  dispatch_time_t delayTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC));
-  dispatch_after(delayTime, dispatch_get_main_queue(), ^{
-    [monitoring stopMonitoring];
-  });
   return YES;
 }
 
